@@ -23,7 +23,7 @@ Bug Fixes & Changes
 ------------
 
 1. v0.1.0
-  1. Initial release
+    1. Initial release
 
 Configuration & Use
 ------------
