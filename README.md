@@ -54,4 +54,4 @@ There are a few simple steps to configure this template
     chef_server_url          'https://chefserver.route1337.com/organizations/route1337'
     cookbook_path            ["/Users/joedeveloper/Chef/Route1337/Cookbooks"]
     ```
-3. You can now create cookbooks using the template via `chef generate cookbook $cookbookName -g /path/to/repo`
+3. You can now create cookbooks using the template via `chef generate cookbook $cookbookName`
