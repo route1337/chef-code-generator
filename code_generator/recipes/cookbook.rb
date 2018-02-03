@@ -39,6 +39,27 @@ template "#{cookbook_dir}/README.md" do
   action :create_if_missing
 end
 
+# CONTRIBUTING
+template "#{cookbook_dir}/CONTRIBUTING.md" do
+  helpers(ChefDK::Generator::TemplateHelper)
+  source "CONTRIBUTING.md.erb"
+  action :create_if_missing
+end
+
+# CHANGELOG
+template "#{cookbook_dir}/CHANGELOG.md" do
+  helpers(ChefDK::Generator::TemplateHelper)
+  source "CHANGELOG.md.erb"
+  action :create_if_missing
+end
+
+# TESTING
+template "#{cookbook_dir}/TESTING.md" do
+  helpers(ChefDK::Generator::TemplateHelper)
+  source "TESTING.md.erb"
+  action :create_if_missing
+end
+
 # chefignore
 cookbook_file "#{cookbook_dir}/chefignore"
 
@@ -58,8 +79,8 @@ else
 
 end
 
-# LICENSE.txt
-template "#{cookbook_dir}/LICENSE.txt" do
+# LICENSE
+template "#{cookbook_dir}/LICENSE" do
   helpers(ChefDK::Generator::TemplateHelper)
   source "LICENSE.#{context.license}.erb"
   action :create_if_missing
