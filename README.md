@@ -22,7 +22,9 @@ Known Issues
 Bug Fixes & Changes
 ------------
 
-1. v0.1.0
+1. v0.1.1
+    1. Fixing generated documentation in order to align with Foodcritic expectations
+2. v0.1.0
     1. Initial release
 
 Configuration & Use
