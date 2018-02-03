@@ -6,7 +6,7 @@ repo_dir = File.join(context.repo_root, context.repo_name)
 directory repo_dir
 
 # Top level files
-template "#{repo_dir}/LICENSE.txt" do
+template "#{repo_dir}/LICENSE" do
   source "LICENSE.#{context.license}.erb"
   helpers(ChefDK::Generator::TemplateHelper)
   action :create_if_missing

@@ -42,8 +42,8 @@ cookbook_file "#{build_cookbook_dir}/README.md" do
   action :create_if_missing
 end
 
-# LICENSE.txt
-template "#{build_cookbook_dir}/LICENSE.txt" do
+# LICENSE
+template "#{build_cookbook_dir}/LICENSE" do
   source "LICENSE.#{context.license}.erb"
   helpers(ChefDK::Generator::TemplateHelper)
   action :create_if_missing
