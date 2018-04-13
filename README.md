@@ -22,11 +22,13 @@ Known Issues
 Bug Fixes & Changes
 ------------
 
-1. v0.1.2
+1. v0.1.3
+    1. Fixing generated README.md to reflect tested Chef version
+2. v0.1.2
     1. Locking test kitchen to Route 1337's accepted chef-client version of 13.6.4
-2. v0.1.1
+3. v0.1.1
     1. Fixing generated documentation in order to align with Foodcritic expectations
-3. v0.1.0
+4. v0.1.0
     1. Initial release
 
 Configuration & Use
