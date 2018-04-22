@@ -22,6 +22,8 @@ Known Issues
 Bug Fixes & Changes
 ------------
 
+1. v0.1.5
+    1. Setting 13.6.4 as the minimum supported Chef version but allowing greater versions again
 1. v0.1.4
     1. Fixing a mistake in the Chef version supported by the generated metadata.rb
 2. v0.1.3
