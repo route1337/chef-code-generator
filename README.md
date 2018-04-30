@@ -22,17 +22,19 @@ Known Issues
 Bug Fixes & Changes
 ------------
 
-1. v0.1.5
+1. v0.1.6
+    1. Adding testing for Ubuntu 18.04
+2. v0.1.5
     1. Setting 13.6.4 as the minimum supported Chef version but allowing greater versions again
-1. v0.1.4
+3. v0.1.4
     1. Fixing a mistake in the Chef version supported by the generated metadata.rb
-2. v0.1.3
+4. v0.1.3
     1. Fixing generated README.md to reflect tested Chef version
-3. v0.1.2
+5. v0.1.2
     1. Locking test kitchen to Route 1337's accepted chef-client version of 13.6.4
-4. v0.1.1
+6. v0.1.1
     1. Fixing generated documentation in order to align with Foodcritic expectations
-5. v0.1.0
+7. v0.1.0
     1. Initial release
 
 Configuration & Use
