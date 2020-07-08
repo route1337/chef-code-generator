@@ -1,3 +1,7 @@
+Deprecated Repo
+------------
+Route 1337, LLC's Chef repos have been deprecated and will no longer be supported. We are happy to take community contributions or invite volunteer maintainers if support is desired. If you wish to maintain our Chef repos you may [contact us](https://www.route1337.com/contact-us/).
+
 Route 1337 Chef Code Generator Template
 ==============
 This repo contains the standard Route 1337, LLC cookbook template for creating Chef cookbooks with the `chef generate` command
